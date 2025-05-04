@@ -149,7 +149,7 @@ div h2{
 .bi-linkedin{color: blue; border-radius: 100%;}
 .bi-instagram{color: red; border-radius: 100%;}
 .bi-telegram{color: cornflowerblue; border-radius: 100%;}
-.bi{
+.bi_one{
     font-size: 30px;
     margin-right: 10px;
     background-color: #ffa500;
@@ -158,7 +158,7 @@ div h2{
     padding: 10px 14px;
     transition: all 0.3s ease-in 0s;
 }
-.bi:hover{
+.bi_one:hover{
     background-color: #333;
     transition: all 0.3s ease-in 0s;
     color: #fff;
@@ -178,11 +178,35 @@ div h2{
 /* CONPETENCES */
 #skill{
     background-color: #fff;
-    padding: 70px 0;
+    padding: 50px 0;
 }
 #skill .progress{
     margin: 50px 5px;
     height: 30px;
 }
 /* EXPERIENCE */
-
+#experiencepro{
+    margin-bottom: 20px;
+/* }#experiencepro .school{
+    display: flex;
+    justify-self: center;
+} */
+}#experiencepro .universityone{
+    padding: 20px 40px  40px 20px;
+    height: 300px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+#experiencepro .universitytwo{
+    padding: 20px 40px  40px 20px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 6px;
+    text-align: center;
+}
+.bi-mortarboard-fill{
+    font-size: 40px;
+    
+}
